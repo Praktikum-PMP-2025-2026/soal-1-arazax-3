@@ -1,3 +1,12 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+ *   Modul               : 5
+ *   Hari dan Tanggal    : Sening, 11 Mei 2026
+ *   Nama (NIM)          : Afdhal Razaq (13224004)
+ *   Nama File           : soal2.c
+ *   Deskripsi           : Menentukan derajat tiap node dari graph, node yang terisolasi, serta node dengan derajat maksimum
+ * 
+ */
+
 #include <stdio.h>
 int N;
 
