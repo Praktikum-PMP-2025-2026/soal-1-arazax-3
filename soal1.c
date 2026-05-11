@@ -33,15 +33,19 @@ void hasil(int matrix[][N]){
     }
     printf("MAX_VERTEX %d\n", idxmax);
     int flag = 0;
+    printf("ISOLATED");
     for(int i = 0; i < N; i++){
         int derajat = degree(matrix[i]);
         if (derajat == 0){
-            printf("ISOLATED %d\n", i);
+            printf(" %d", i);
             flag = 1;
         }
     }
+
     if (flag == 0){
-        printf("ISOLATED NONE\n");
+        printf(" NONE\n");
+    }else {
+        printf("\n");
     }
 }
 
@@ -57,5 +61,4 @@ int main(){
     }
     
     hasil(matrix);
-
 }
